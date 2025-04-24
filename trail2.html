@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arbify 🎶</title>
+        <link rel="stylesheet" href="styless.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="arbify-title">Arbify 🎶</div>
+        <div class="main-container">
+            <div class="song-library">
+                <div class="song-item">
+                    <img src="1ong.png" alt="Album 1" class="library-album-art">
+                    <div class="song-info">
+                        <span class="library-song-title">Phonk salva brazil!</span>
+                        <span class="library-artist-name">Brzqq</span>
+                    </div>
+                </div>
+                <div class="song-item">
+                    <img src="2ong.png" alt="Album 2" class="library-album-art">
+                    <div class="song-info">
+                        <span class="library-song-title">Malare</span>
+                        <span class="library-artist-name">Rajesh Murugesan</span>
+                    </div>
+                </div>
+                <div class="song-item">
+                    <img src="3ong.png" alt="Album 3" class="library-album-art">
+                    <div class="song-info">
+                        <span class="library-song-title">Banjaara</span>
+                        <span class="library-artist-name">Mohammed Irfan</span>
+                    </div>
+                </div>
+                <div class="song-item">
+                    <img src="4ong.png" alt="Album 4" class="library-album-art">
+                    <div class="song-info">
+                        <span class="library-song-title">São Paulo(feat.Anitta)</span>
+                        <span class="library-artist-name">Weekend, Anitta</span>
+                    </div>
+                </div>
+                <div class="song-item">
+                    <img src="5ong.png" alt="Album 5" class="library-album-art">
+                    <div class="song-info">
+                        <span class="library-song-title">The Abyss(feat.Lana Del Rey)</span>
+                        <span class="library-artist-name">Weekend, Lana Del Rey</span>
+                    </div>
+                </div>
+            </div>
+            <div class="music-container">
+                <img src="arbify.png" alt="Album Art" class="album-art">
+                <h2 class="song-title">Phonk salva brazil!</h2>
+                <h3 class="artist-name">Brzqq</h3>
+                <div class="progress-container">
+                    <input type="range" id="progress-bar" min="0" value="0" step="1">
+                </div>
+                <div class="controls">
+                    <img id="prev" src="prev.png" alt="Previous" class="control-btn">
+                    <img id="play" src="play.png" alt="Play" class="control-btn">
+                    <img id="next" src="next.png" alt="Next" class="control-btn">
+                </div>
+                <audio id="audio">
+                    <source src="phonk.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

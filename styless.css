@@ -1,0 +1,154 @@
+/* body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* arbify title */
+.arbify-title {
+    position: fixed;
+    top: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    z-index: 10;
+}
+
+/* main container */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 150px;
+    height: 360px;
+}
+
+/* Song library */
+.song-library {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.song-item:hover {
+    background: #1db954;
+}
+
+.library-album-art {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.library-song-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.library-artist-name {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+/* music player */
+.music-container {
+    text-align: center;
+    background: #222;
+    width: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* album art */
+.album-art {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Song title & artist */
+.song-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1DB954;
+}
+
+.artist-name {
+    font-size: 16px;
+    color: #135f2e;
+    font-weight: 400;
+}
+
+/* controls */
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px; 
+}
+
+.control-btn {
+    width: 40px; 
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.control-btn:hover {
+    transform: scale(1.1);
+    background-color: #1DB954;
+    border-radius: 25px;
+}
+
+.control-btn:active {
+    transform: scale(0.9);
+}
+
+/* progress bar */
+.progress-container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#progress-bar {
+    width: 100%;
+    -webkit-appearance: none;
+    background: #1DB954;
+    height: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    appearance: none
+}
+.arbify-title {
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    color: #1DB954;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
